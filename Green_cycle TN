@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenCycle TN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GreenCycle TN</h1>
+        <p>Recyclage intelligent et gestion des déchets en Tunisie</p>
+    </header>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#features">Fonctionnalités</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>À propos</h2>
+            <p>GreenCycle TN est une plateforme innovante qui connecte les citoyens, les entreprises et les collectivités pour une gestion durable des déchets grâce à des technologies intelligentes.</p>
+        </section>
+        <section id="features" class="section">
+            <h2>Fonctionnalités</h2>
+            <ul>
+                <li>Localisation des points de collecte les plus proches</li>
+                <li>Suivi des camions en temps réel</li>
+                <li>Programme de récompenses pour encourager le recyclage</li>
+                <li>Recommandations personnalisées grâce à l'IA</li>
+            </ul>
+            <a href="#" class="cta-button">Rejoignez-nous</a>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Pour en savoir plus, contactez-nou :</p>
+            <p>Email : <a href="mailto:info@greencycle.tn">info@greencycle.tn</a></p>
+            <p>Téléphone : +216 123 456 789</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 GreenCycle TN. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
